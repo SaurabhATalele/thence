@@ -1,0 +1,32 @@
+.navbar {
+  position: relative;
+  width: 90%;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  border-radius: 50px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+.nav-button {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button-dark {
+  background: linear-gradient(0deg, #1c1c1c, #1c1c1c);
+  color: #fff;
+}

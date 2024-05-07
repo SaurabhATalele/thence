@@ -1,0 +1,108 @@
+.info-container {
+  height: 596px;
+  width: 600px;
+  position: relative;
+}
+
+.model {
+  width: 506px;
+  height: 546px;
+  border-radius: 40px;
+}
+
+.time-box,
+.day-box {
+  display: flex;
+  position: absolute;
+  background-color: white;
+  box-shadow: 2px 2px 6px #ccc;
+  border-radius: 20px;
+}
+.time-box {
+  top: 10%;
+  left: -20%;
+  flex-direction: column;
+}
+
+.day-box {
+  bottom: 20%;
+  left: 0;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.spark {
+  position: absolute;
+}
+
+.data-box {
+  margin: 50px 40px;
+  text-align: left;
+}
+
+.perc {
+  font-size: 3.4rem;
+  margin: 0;
+}
+
+.time-desc {
+  margin: 0;
+  width: 200px;
+  text-align: left;
+  font-size: 18px;
+  color: #828282;
+}
+
+.rocket {
+  padding: 8px 10px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50%;
+  background-color: #ddefe0;
+}
+
+.rocket-image {
+  width: 20px;
+  height: 20px;
+  color: #2da950;
+}
+
+.day-box {
+  gap: 10px;
+}
+
+.day-box h3 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.day-box p {
+  color: #828282;
+  font-size: 1rem;
+}
+
+.expense-box {
+  border-radius: 40px;
+  background: #002e18;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.expense-box h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+h1 span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #828282;
+}
+
+.expense-box p {
+  font-size: 18px;
+  color: white;
+  width: 250px;
+}

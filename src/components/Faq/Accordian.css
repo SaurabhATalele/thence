@@ -1,0 +1,17 @@
+.acc {
+  width: 70%;
+  border-bottom: 1px solid #ccc;
+}
+
+.que {
+  font-weight: 600;
+  font-size: 20px;
+}
+.desc {
+  font-size: 0.9rem;
+  color: #617275;
+}
+
+.button {
+  cursor: pointer;
+}
